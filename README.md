@@ -53,4 +53,4 @@ gcloud projects add-iam-policy-binding <PROJECT ID> --member "serviceAccount:<SE
 2. We will be using this service account to interact with GCP console
 
 ## We are ready to do some terraforming ...
-[Getting Started](https://github.com/pgaijin66/Learn-Terraform/getting-started/README.md)
+[Getting Started](https://github.com/pgaijin66/Learn-Terraform/blob/master/getting-started/README.md)
