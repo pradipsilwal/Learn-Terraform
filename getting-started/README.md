@@ -1,6 +1,9 @@
 # Contents
 1. Infrastructure as Code (IAAC)
-2. 
+2. What is Terraform ?
+3. Why Terraform ?
+4. Terraform flow
+
 
 ## What is IaaC (Infrastructure as Code)
 IAAC means creating resources like physical infrastructure, compute resources, storage buckets etc using code. These resources can be defined in any order in terraform and it will understand in what order they should be created. 
@@ -26,7 +29,7 @@ Terraform flow is simple and easy to understand.
 4. Apply
 
 ## Code
-Terraform code are written in HCL format. The file extension for terraform is <code>.tf</code>. It is better to structure terraform files before getting started. We will use them when required. Go a head and create three files inside folder of your choice. 
+Terraform code are written in HCL format. The file extension for terraform is <code>.tf</code>. It is better to structure terraform files before getting started. We will use them when required. Go a head and create three files inside folder of your choice. I have created inside <b>module-1</b> folder. The files are: 
 1. main.tf
 2. variables.tf
 3. outputs.tf
@@ -45,3 +48,6 @@ After we run <code>terraform plan</code>, and verified our configuration is ok, 
 Terraform also maintains state of the configuration. So if you run terraform apply command it creates a <code>.tfstate</code> file which is in json format and has information about the current state. This becomes the single source of truth to compare against future changes. So, be carefull not to delete this file. 
 
 It also creates <code>.terraform</code> folder which contains information about plugins, metadata. We can just ignore that for now.
+
+# Next module
+[Module - 1](https://github.com/pgaijin66/Learn-Terraform/blob/master/module-1/README.md)
