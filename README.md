@@ -1,6 +1,6 @@
 # :rocket: :terraform: Learn Terraform :terraform: :rocket:	
 
-##### :information_source: :rocket: NOTE TO READER: If you feel something could be better, wrritten more clearly please feel free to PR. ALl the approriate changes are accepted.
+#### rocket:  NOTE TO READER: If you feel something could be better, wrritten more clearly please feel free to PR. ALl the approriate changes are accepted.
 
 ## Getting started
 This documentation aims to help use get start with terraform on different cloud providers.
