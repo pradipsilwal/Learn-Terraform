@@ -38,7 +38,7 @@ Before you start make sure you already have signed up for google cloud service.
 #### gcloud Service account
 1. Create gcloud service account using command <code>gcloud iam service-accounts create terraform-admin --display-name "Terraform Gcloud"</code>
 2. verify the service account using command <code>gcloud iam service-accounts list</code>
-3. Download service account key using command <code>gcloud iam service-accounts keys create ~/terraform-admin.json --iam-account terraform-admin@lithe-augury-282302.iam.gserviceaccount.com</code>
+3. Download service account key using command <code>gcloud iam service-accounts keys create ~/terraform-admin.json --iam-account SERVICE_ACCOUNT_EMAIL</code>
 4. Go to gcp console > IAM > service accounts to verify id your service account has been created or not.
 
 #### Set project and service account to use
