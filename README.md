@@ -1,4 +1,4 @@
-# :rocket: :terraform: Learn Terraform :terraform: :rocket:	
+# :rocket: Learn Terraform :rocket:	
 
 #### :rocket:  NOTE TO READER: If you feel something could be better, wrritten more clearly please feel free to PR. ALl the approriate changes are accepted.
 
