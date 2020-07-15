@@ -1,4 +1,4 @@
-## Contents
+## Table of Contents
 In this module we will learn following things:
 1. Learn more about Hashicorp configuration language (HCL)
 2. Create VPC network in GCP using terraform 
