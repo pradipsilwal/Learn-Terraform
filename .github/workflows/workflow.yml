@@ -2,7 +2,7 @@ name: Greet Everyone
 # This workflow is triggered on pushes to the repository.
 on:
   paths:
-    - .github/workflows/*
+    - ".github/workflows/**.yml"
     - '*'
   push:
     branches: [ master ]
