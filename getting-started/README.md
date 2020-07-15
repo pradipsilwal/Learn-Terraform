@@ -6,7 +6,7 @@
 
 
 ## What is IaaC (Infrastructure as Code)
-IAAC means creating resources like physical infrastructure, compute resources, storage buckets etc using code. These resources can be defined in any order in terraform and it will understand in what order they should be created. 
+IAAC means creating resources like physical infrastructure, compute resources, storage buckets etc using code.These resources can be defined in any order in terraform and it will understand in what order they should be created. 
 
 Terraform uses HCL (Hashicorp Configuration Language) to define this resources.
 
